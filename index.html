@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="src/images/icon.png" type="image/x-icon">
+  <link rel="stylesheet" href="src/assets/index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <title> Weather App </title>
+</head>
+<body>
+<div class="container">
+ <div class="search_box">
+  <i class="fa-solid fa-location-dot"></i>
+  <input type="text" placeholder="Enter the location">
+  <button class="fa-solid fa-magnifying-glass"></button>
+ </div>
+ 
+ <div class="not_found">
+  <img src="src/images/404.svg">
+  <p>Oops! Invalid location ¯\_(ツ)_/¯ </p>
+ </div>
+
+ <div class="weather_box">
+  <img src="">
+  <p class="temperature"></p>
+  <p class="description"></p>
+ </div>
+ 
+ <div class="weather_details">
+  <div class="humidity">
+   <i class="fa-solid fa-water"></i>
+   <div class="text">
+    <span></span>
+    <p>Humidity</p>
+   </div>
+  </div>
+  
+  <div class="wind">
+   <i class="fa-solid fa-wind"></i>
+   <div class="text">
+    <span></span>
+    <p>Wind Speed</p>
+   </div>
+  </div>
+ </div>
+
+ <footer>
+  <p> &#129680; by <a href="https://github.com/cruzito-rar" target="_blank"> cruzito.rar</a> </p> 
+ </footer>
+ 
+</div>
+
+ <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+ <script src="src/assets/index.js"></script>
+</body>
+</html>

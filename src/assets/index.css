@@ -112,19 +112,19 @@ body {
  margin-top: 30px;
 }
 
-.weather_details .humidity, .weather_details .wind {
+.weather_details .min_temp, .weather_details .max_temp {
  display: flex;
  align-items: center;
  width: 50%;
  height: 100px;
 }
 
-.weather_details .humidity {
+.weather_details .min_temp {
  padding-left: 20px;
  justify-content: flex-start;
 }
 
-.weather_details .wind {
+.weather_details .max_temp {
  padding-right: 20px;
  justify-content: flex-end;
 }
@@ -197,5 +197,11 @@ footer a {
  to {
   scale: 1;
   opacity: 1;
+ }
+}
+
+@media (max-width: 450px) {
+ .container {
+  margin: 20px 0 20px 0;
  }
 }

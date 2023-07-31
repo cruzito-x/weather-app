@@ -1,8 +1,8 @@
 # 🌥️ Simple Weather App
 
-![image1](https://github.com/cruzito-rar/weather-app/assets/54298536/c4f31d05-6b13-4a38-872b-8c2304b243ec)
+![image1](https://github.com/cruzito-rar/weather-app/assets/54298536/46c5b980-9b19-4bdf-9cdd-32040eb8c3d0)
 
-![image2](https://github.com/cruzito-rar/weather-app/assets/54298536/e61fad52-3cb2-4f36-bff2-d8214ea64ff4)
+![image2](https://github.com/cruzito-rar/weather-app/assets/54298536/d2d496d5-a5e7-4991-8889-6c9b179aad04)
 
 # 🪐 Demo
 
